@@ -61,7 +61,7 @@ a { color: var(--burgundy); }
 
 /* 5. PAGES */
 /* Home */
-.display-title { font-size: clamp(3.5rem, 12vw, 7.5rem); letter-spacing: .06em; font-weight: 700; margin: 0; }
+.display-title { font-size: clamp(3.5rem, 7.5vw, 7.5rem); letter-spacing: .06em; font-weight: 700; margin: 0; }
 .display-title span { color: var(--orange); }
 .tagline { font-family: var(--serif); font-style: italic; font-size: 1.5rem; color: var(--burgundy); border-top: 1px solid var(--brown); border-bottom: 1px solid var(--brown); display: inline-block; padding: .4rem 0; margin: 1rem 0; }
 .collage { position: relative; min-height: 380px; }
