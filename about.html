@@ -55,6 +55,55 @@
         </div>
       </div>
     </section>
+     <section class="submit-section py-5" id="submit">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">Share Your Story</p>
+          <h2>Submit Your Work</h2>
+        </div>
+        <form class="submit-card" id="submit-form">
+
+          <div class="mb-4">
+            <label class="form-label" for="sub-name">Your name</label>
+            <input class="form-control" type="text" id="sub-name" name="name" maxlength="80" required
+              autocomplete="name">
+          </div>
+
+          <div class="mb-4">
+            <label class="form-label" for="sub-type">Content type</label>
+            <select class="form-select" id="sub-type" name="content_type" required>
+              <option value="" selected disabled>Choose a category</option>
+              <option>Music</option>
+              <option>Cinema and Television</option>
+              <option>Fashion and Lifestyle</option>
+              <option>Technology</option>
+              <option>Everyday Life</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="mb-4">
+            <label class="form-label" for="sub-about">About your work</label>
+            <textarea class="form-control" id="sub-about" name="about_work" rows="6" minlength="30" maxlength="1500"
+              required placeholder="Tell us what your piece is about, in a few lines."></textarea>
+            <p class="form-hint mt-1 mb-0">30 to 1500 characters.</p>
+          </div>
+
+          <div class="mb-4">
+            <label class="form-label" for="sub-pdf">Upload your work (PDF)</label>
+            <input class="form-control" type="file" id="sub-pdf" name="work_pdf" accept="application/pdf,.pdf"
+              required>
+            <p class="form-hint mt-1 mb-0">PDF only, up to 500 KB.</p>
+          </div>
+
+          <button class="btn-rw" type="submit">Submit your work → </button>
+
+        </form>
+      </div>
+    </section>
+
+
+
   </main>
   <footer class="site-footer">
     <div class="container text-center">
