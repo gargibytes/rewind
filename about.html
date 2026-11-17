@@ -1,39 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>About | RE/WIND</title>
-<meta name="description" content="RE/WIND: a vintage editorial archive of Indian culture, 1970s to 2000s.">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | RE/WIND</title>
+  <meta name="description" content="RE/WIND: a vintage editorial archive of Indian culture, 1970s to 2000s.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
-<header class="masthead">
-  <div class="container masthead-inner">
-    <a class="wordmark" href="index.html">RE<span>/</span>WIND</a>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
-    <label for="nav-toggle" class="nav-burger">Menu</label>
-    <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="explore.html">Explore Decades</a><a href="moments.html">Iconic Moments</a><a href="about.html" class="active">About</a></nav>
-  </div>
-</header>
-<main>
-<section class="page-title"><div class="container"><p class="kicker">Editor's Note</p><h1>About RE/WIND</h1></div></section>
-<section class="py-5"><div class="container"><div class="row g-5">
- <div class="col-lg-5"><figure class="frame "><div class="frame-inner"><img src="images/homepage/about.jpg" alt="Camera illustration" loading="lazy"></div></figure></div>
- <div class="col-lg-7 about-text">
-  <h2>What is RE/WIND?</h2><p>RE/WIND is a digital nostalgia archive designed like a vintage magazine. It travels through the 1970s, 80s, 90s and 2000s and looks at music, cinema and television, fashion, technology and everyday life in India.</p>
-  <h2>Why nostalgia?</h2><p>Looking back helps us understand how we got here. A cassette, a Sunday serial or a Nokia phone reminds us that every generation grew up with its own tools and its own favourite stories.</p>
-  <h2>Why only India?</h2><p>The project keeps its focus on Indian culture so that every page can go deeper into the songs, films, shows and gadgets that were part of Indian homes, from single-screen cinemas and Doordarshan to cybercaf&eacute;s and the first mobile phones.</p>
-  <h2>The inspiration</h2><p>The project is inspired by old magazines, family photo albums and the stories told by parents and grandparents. It was built as a first-year BTech CSE mini-project using only HTML, CSS and Bootstrap.</p>
- </div></div></div></section>
-</main>
-<footer class="site-footer">
-  <div class="container text-center">
-    <p class="wordmark wordmark-lg">RE<span>/</span>WIND</p>
-    <p class="footer-tag">Some moments deserve to be relived.</p>
-    <p class="copyright">&copy; 2026 RE/WIND </p>
-  </div>
-</footer>
+  <header class="masthead">
+    <div class="container masthead-inner">
+      <a class="wordmark" href="index.html">RE<span>/</span>WIND</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+      <label for="nav-toggle" class="nav-burger">Menu</label>
+      <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="explore.html">Explore
+          Decades</a><a href="moments.html">Iconic Moments</a><a href="about.html" class="active">About</a></nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <p class="kicker">Editor's Note</p>
+        <h1>About RE/WIND</h1>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 about-text">
+            <h2>What is RE/WIND?</h2>
+            <p>RE/WIND is a digital nostalgia archive designed like a vintage magazine. It travels through the 1970s,
+              80s, 90s and 2000s and looks at music, cinema and television, fashion, technology and everyday life in
+              India.</p>
+            <h2>Why nostalgia?</h2>
+            <p>Looking back helps us understand how we got here. A cassette, a Sunday serial or a Nokia phone reminds us
+              that every generation grew up with its own tools and its own favourite stories.</p>
+            <h2>Why only India?</h2>
+            <p>The project keeps its focus on Indian culture so that every page can go deeper into the songs, films,
+              shows and gadgets that were part of Indian homes, from single-screen cinemas and Doordarshan to
+              cybercaf's and the first mobile phones.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="submit-section py-5" id="submit">
+      <div class="container">
+        <div class="section-head">
+          <p class="kicker">Share Your Story</p>
+          <h2>Submit Your Work</h2>
+        </div>
+        <form class="submit-card" id="submit-form">
+
+          <div class="mb-4">
+            <label class="form-label" for="sub-name">Your name</label>
+            <input class="form-control" type="text" id="sub-name" name="name" maxlength="80" required
+              autocomplete="name">
+          </div>
+
+          <div class="mb-4">
+            <label class="form-label" for="sub-type">Content type</label>
+            <select class="form-select" id="sub-type" name="content_type" required>
+              <option value="" selected disabled>Choose a category</option>
+              <option>Music</option>
+              <option>Cinema and Television</option>
+              <option>Fashion and Lifestyle</option>
+              <option>Technology</option>
+              <option>Everyday Life</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="mb-4">
+            <label class="form-label" for="sub-about">About your work</label>
+            <textarea class="form-control" id="sub-about" name="about_work" rows="6" minlength="30" maxlength="1500"
+              required placeholder="Tell us what your piece is about, in a few lines."></textarea>
+            <p class="form-hint mt-1 mb-0">30 to 1500 characters.</p>
+          </div>
+
+          <div class="mb-4">
+            <label class="form-label" for="sub-pdf">Upload your work (PDF)</label>
+            <input class="form-control" type="file" id="sub-pdf" name="work_pdf" accept="application/pdf,.pdf" required>
+            <p class="form-hint mt-1 mb-0">PDF only, up to 500 KB.</p>
+          </div>
+
+          <button class="btn-rw" type="submit">Submit your work → </button>
+
+        </form>
+      </div>
+    </section>
+
+
+
+  </main>
+  <footer class="site-footer">
+    <div class="container text-center">
+      <p class="wordmark wordmark-lg">RE<span>/</span>WIND</p>
+      <p class="footer-tag">Some moments deserve to be relived.</p>
+      <p class="copyright"> © 2026 RE/WIND </p>
+    </div>
+  </footer>
 </body>
+
 </html>
