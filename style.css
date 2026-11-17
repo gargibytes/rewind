@@ -450,7 +450,17 @@ a {
 .mini-moment .date-stamp {
   margin-top: 1rem;
 }
+.share-cta {
+  text-align: center;
+}
 
+.share-line {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.7rem;
+  color: var(--burgundy);
+  margin-bottom: 1.2rem;
+}
 /* Explore */
 .explore-item h2 {
   margin-top: 1rem;
@@ -629,6 +639,59 @@ a {
   padding-top: 1rem;
   font-size: .8rem;
 }
+/* About: submission form */
+.submit-section {
+  background: var(--cream);
+  border-top: 1px solid var(--beige);
+  scroll-margin-top: 90px;   /* keeps the heading clear of the sticky header */
+}
+
+.submit-card {
+  background: #FBF7EE;
+  border: 1px solid var(--beige);
+  box-shadow: 0 8px 20px rgba(51, 37, 31, .18);
+  padding: 2rem;
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+.submit-card .form-label {
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  font-size: .75rem;
+  font-weight: 600;
+  color: var(--burgundy);
+}
+
+.submit-card .form-control,
+.submit-card .form-select {
+  border-radius: 0;
+  border: 1px solid var(--beige);
+  background-color: var(--ivory);
+  color: var(--brown);
+}
+
+.submit-card .form-control:focus,
+.submit-card .form-select:focus {
+  border-color: var(--orange);
+  box-shadow: 0 0 0 .2rem rgba(197, 106, 61, .25);
+}
+
+.form-hint {
+  font-size: .85rem;
+  opacity: .75;
+}
+
+button.btn-rw {
+  background: transparent;
+  font-family: var(--sans);
+  cursor: pointer;
+}
+
+button.btn-rw:hover {
+  background: var(--burgundy);
+}
+
 
 /* 7. RESPONSIVE */
 @media (min-width: 768px) {
