@@ -455,7 +455,23 @@ a {
 .explore-item h2 {
   margin-top: 1rem;
 }
+.explore-item .frame {
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
 
+.explore-item .frame-inner {
+  width: 100%;
+}
+
+.explore-item .frame-inner img {
+  display: block;
+  width: 100%;          
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top;
+}
 /* Decade pages */
 .decade-hero img {
   width: 100%;
