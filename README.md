@@ -18,7 +18,7 @@ To bundle them yourself, put the .woff2 files in `fonts/` and add an `@font-face
 ## Viva cheat-sheet
 - **Mobile menu without JS:** hidden checkbox + `<label>`; CSS `:checked ~ .main-nav` shows the menu.
 - **Colours/fonts:** CSS variables in `:root`; one change updates the whole site.
-- **Images:** sepia look is a static `filter: sepia()`. There are no image hover effects anywhere.
+- **Images:** sepia look is a static `filter: sepia()`. 
 - **Timeline vertical line:** see below.
 
 ### How the timeline line is made (moments.html)

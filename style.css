@@ -174,10 +174,7 @@ a {
   font-weight: 600;
 }
 
-.main-nav a:hover,
-.main-nav a.active {
-  color: var(--burgundy);
-}
+
 
 /* 4. COMPONENTS */
 .frame {
@@ -211,10 +208,6 @@ a {
   transition: .3s;
 }
 
-.btn-rw:hover {
-  background: var(--burgundy);
-  color: var(--ivory);
-}
 
 .read-more {
   color: var(--burgundy);
@@ -222,9 +215,7 @@ a {
   border-bottom: 1px solid var(--orange);
 }
 
-.read-more:hover {
-  color: var(--orange);
-}
+
 
 .tag {
   display: inline-block;
@@ -314,11 +305,8 @@ a {
   height: 100%;
 }
 
-/* Four Decades, Four Moods: keep the original palette on hover/focus too (Bootstrap's a:hover would otherwise recolour the text) */
-.decade-tile:hover,
-.decade-tile:focus {
-  color: var(--ivory);
-}
+/* Four Decades, Four Moods: keep the original palette on focus too (Bootstrap's a: would otherwise recolour the text) */
+
 
 .tile-text {
   padding: 1rem .5rem 1.4rem;
@@ -346,10 +334,7 @@ a {
   color: var(--brown);
 }
 
-.tile-90s:hover,
-.tile-90s:focus {
-  color: var(--brown);
-}
+
 
 .tile-2000s {
   background: var(--brown);
@@ -539,10 +524,6 @@ a {
   border-bottom: 1px solid var(--orange);
 }
 
-.pn-link:hover {
-  color: var(--burgundy);
-}
-
 /* Timeline (mobile first: line on the left) */
 
 
@@ -621,9 +602,6 @@ a {
   padding: .3rem 0;
 }
 
-.footer-nav a:hover {
-  color: var(--orange);
-}
 
 .copyright {
   border-top: 1px solid rgba(201, 185, 159, .35);
@@ -680,11 +658,6 @@ button.btn-rw {
   cursor: pointer;
 }
 
-button.btn-rw:hover {
-  background: var(--burgundy);
-}
-
-
 /* 7. RESPONSIVE */
 @media (min-width: 768px) {
   .nav-burger {
@@ -704,10 +677,7 @@ button.btn-rw:hover {
     border-bottom: 1px solid transparent;
   }
 
-  .main-nav a:hover,
-  .main-nav a.active {
-    border-bottom-color: var(--orange);
-  }
+
 }
 
 @media (min-width: 992px) {
