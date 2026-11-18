@@ -75,6 +75,7 @@ a {
   letter-spacing: .16em;
   font-size: .75rem;
   font-weight: 600;
+  color: white
 }
 
 .kicker {
@@ -297,7 +298,7 @@ a {
 .decade-tile {
   display: block;
   text-decoration: none;
-  color: v#F5F0E6;
+  color: white;
   padding: 10px 10px 0;
   height: 100%;
 }
@@ -310,41 +311,45 @@ a {
 }
 
 .tile-text h3 {
-  color: inherit;
+  color: white;
 }
 
 .tile-text .read-more {
-  color: inherit;
+  color: white;
   border-color: currentColor;
 }
 
 .tile-70s {
   background: #C56A3D;
+  color:white
 }
 
 .tile-80s {
   background: #722F37;
+  color:white
 }
 
 .tile-90s {
   background: #C9B99F;
-  color: #33251F;
+  color: white;
+  
 }
 
 
 
 .tile-2000s {
   background: #33251F;
+  color:white
 }
 
 .split-india {
   background: #722F37;
-  color: v#F5F0E6;
+  color: white;
 }
 
 .split-street {
   background: #33251F;
-  color: v#F5F0E6;
+  color: white;
 }
 
 .split-inner {
@@ -354,7 +359,7 @@ a {
 }
 
 .split .kicker {
-  color: #C9B99F;
+  color: white;
 }
 
 .meet-line {
@@ -364,7 +369,7 @@ a {
 }
 
 .meet-line em {
-  color: #C56A3D;
+  color: #722F37;
 }
 
 .intro-editorial {
@@ -376,7 +381,7 @@ a {
   font-weight: 700;
   letter-spacing: .06em;
   line-height: 1;
-  color: v#F5F0E6;
+  color: white;
   margin: .3rem 0 1rem;
   padding: .9rem 0 .8rem;
   border-top: 3px double #C9B99F;
@@ -387,7 +392,7 @@ a {
   font-family: 'Playfair Display', Georgia, serif;
   font-style: italic;
   font-size: 1.35rem;
-  color: #C9B99F;
+  color: white;
   margin: 0 0 1.4rem;
 }
 
@@ -404,7 +409,7 @@ a {
   font-size: 3.6rem;
   line-height: .8;
   padding: .25rem .5rem 0 0;
-  color: #C56A3D;
+  color: white;
 }
 
 .intro-index {
@@ -416,12 +421,14 @@ a {
   letter-spacing: .14em;
   font-size: .72rem;
   font-weight: 600;
-  color: #C9B99F;
+  color: white;
 }
-.dot {
-  margin: 0 .6rem; 
-  color: #C56A3D; }
 
+.intro-index span+span::before {
+  content: "\00b7";
+  margin: 0 .6rem;
+  color: white;
+}
 
 .mini-moment h3 {
   font-size: 1.15rem;
@@ -430,6 +437,7 @@ a {
 .mini-moment .date-stamp {
   margin-top: 1rem;
 }
+
 .share-cta {
   text-align: center;
 }
@@ -438,13 +446,15 @@ a {
   font-family: 'Playfair Display', Georgia, serif;
   font-style: italic;
   font-size: 1.7rem;
-  color: #722F37;
+  color: white;
   margin-bottom: 1.2rem;
 }
+
 /* Explore */
 .explore-item h2 {
   margin-top: 1rem;
 }
+
 .explore-item .frame {
   width: 100%;
   margin-bottom: 1.2rem;
@@ -456,12 +466,13 @@ a {
 
 .explore-item .frame-inner img {
   display: block;
-  width: 100%;          
+  width: 100%;
   height: auto;
   aspect-ratio: 3 / 4;
   object-fit: cover;
   object-position: top;
 }
+
 /* Decade pages */
 .decade-hero img {
   width: 100%;
@@ -529,6 +540,7 @@ a {
   padding: 0;
   position: relative;
 }
+
 .timeline::before {
   content: "";
   position: absolute;
@@ -537,11 +549,13 @@ a {
   bottom: 0;
   border-left: 2px solid #33251F;
 }
+
 .timeline .frame img {
   width: 100%;
   height: auto;
   display: block;
 }
+
 .t-item {
   position: relative;
   padding-left: 2.5rem;
@@ -604,11 +618,13 @@ a {
   padding-top: 1rem;
   font-size: .8rem;
 }
+
 /* About: submission form */
 .submit-section {
   background: #E9DFCD;
   border-top: 1px solid #C9B99F;
-  scroll-margin-top: 90px;   /* keeps the heading clear of the sticky header */
+  scroll-margin-top: 90px;
+  /* keeps the heading clear of the sticky header */
 }
 
 .submit-card {
