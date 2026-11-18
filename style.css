@@ -421,12 +421,10 @@ a {
   font-weight: 600;
   color: #C9B99F;
 }
+.dot {
+  margin: 0 .6rem; 
+  color: #C56A3D; }
 
-.intro-index span+span::before {
-  content: "\00b7";
-  margin: 0 .6rem;
-  color: #C56A3D;
-}
 
 .mini-moment h3 {
   font-size: 1.15rem;
