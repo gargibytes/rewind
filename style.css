@@ -419,8 +419,7 @@ a {
   color: #C9B99F;
 }
 
-.intro-index span+span::before {
-  content: "\00b7";
+.dot {
   margin: 0 .6rem;
   color: #C56A3D;
 }
@@ -432,6 +431,7 @@ a {
 .mini-moment .date-stamp {
   margin-top: 1rem;
 }
+
 .share-cta {
   text-align: center;
 }
@@ -443,10 +443,12 @@ a {
   color: #722F37;
   margin-bottom: 1.2rem;
 }
+
 /* Explore */
 .explore-item h2 {
   margin-top: 1rem;
 }
+
 .explore-item .frame {
   width: 100%;
   margin-bottom: 1.2rem;
@@ -458,12 +460,13 @@ a {
 
 .explore-item .frame-inner img {
   display: block;
-  width: 100%;          
+  width: 100%;
   height: auto;
   aspect-ratio: 3 / 4;
   object-fit: cover;
   object-position: top;
 }
+
 /* Decade pages */
 .decade-hero img {
   width: 100%;
@@ -531,6 +534,7 @@ a {
   padding: 0;
   position: relative;
 }
+
 .timeline::before {
   content: "";
   position: absolute;
@@ -539,11 +543,13 @@ a {
   bottom: 0;
   border-left: 2px solid #33251F;
 }
+
 .timeline .frame img {
   width: 100%;
   height: auto;
   display: block;
 }
+
 .t-item {
   position: relative;
   padding-left: 2.5rem;
@@ -606,11 +612,13 @@ a {
   padding-top: 1rem;
   font-size: .8rem;
 }
+
 /* About: submission form */
 .submit-section {
   background: #E9DFCD;
   border-top: 1px solid #C9B99F;
-  scroll-margin-top: 90px;   /* keeps the heading clear of the sticky header */
+  scroll-margin-top: 90px;
+  /* keeps the heading clear of the sticky header */
 }
 
 .submit-card {
