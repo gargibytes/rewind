@@ -32,16 +32,18 @@ h3,
 .wordmark {
   font-family: 'Playfair Display', Georgia, serif;
   line-height: 1.15;
-  color: white
+  color: #722F37;
 }
 
 h2 {
   font-size: clamp(1.8rem, 4vw, 2.6rem);
+  color: #722F37;
 }
 
 h3 {
   font-size: 1.3rem;
   margin-top: .7rem;
+  color: #722F37;
 }
 
 img {
@@ -52,6 +54,10 @@ img {
 
 a {
   color: #722F37;
+}
+.decade-head {
+font-size: clamp(1.8rem, 4vw, 2.6rem);
+color: #722F37;
 }
 
 :focus-visible {
@@ -95,7 +101,7 @@ a {
   font-family: 'Playfair Display', Georgia, serif;
   font-style: italic;
   font-size: 1.3rem;
-  color: #722F37;
+  color: white;
 }
 
 .lead-text {
@@ -107,7 +113,7 @@ a {
   text-align: center;
   margin-bottom: 2.5rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #C9B99F;
+  color:#33251F;
 }
 
 /* 3. HEADER AND CSS-ONLY MOBILE MENU*/
@@ -129,7 +135,7 @@ a {
   font-size: 1.7rem;
   font-weight: 700;
   letter-spacing: .12em;
-  color: white;
+  color:#722F37;
   text-decoration: none;
   margin: 0;
 }
@@ -253,6 +259,7 @@ a {
   letter-spacing: .06em;
   font-weight: 700;
   margin: 0;
+  color:#722F37;
 }
 
 .display-title span {
@@ -433,6 +440,7 @@ a {
 
 .mini-moment h3 {
   font-size: 1.15rem;
+  color:#722F37;
 }
 
 .mini-moment .date-stamp {
@@ -452,8 +460,10 @@ a {
 }
 
 /* Explore */
+
 .explore-item h2 {
   margin-top: 1rem;
+  color: #722F37;
 }
 
 .explore-item .frame {
@@ -493,7 +503,7 @@ a {
 }
 
 .hero-band .subtitle {
-  color: #C9B99F;
+  color: #722F37;
   margin: 0;
 }
 
@@ -512,7 +522,7 @@ a {
 
 .category {
   padding: 3.5rem 0;
-  border-top: 1px solid #C9B99F;
+  border-top: 1px solid #722F37;
 }
 
 .category.alt {
@@ -540,6 +550,7 @@ a {
   margin: 0;
   padding: 0;
   position: relative;
+  scroll-margin-top: 90px
 }
 
 .timeline::before {
@@ -669,6 +680,7 @@ button.btn-rw {
   font-family: 'Source Sans 3', Arial, sans-serif;
   cursor: pointer;
 }
+
 
 
 
