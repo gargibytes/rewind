@@ -110,11 +110,8 @@ a {
 
 /* 3. HEADER AND CSS-ONLY MOBILE MENU*/
 .masthead {
-  background: v#F5F0E6;
-  border-bottom: 3px double #33251F;
-  position: sticky;
-  top: 0;
-  z-index: 20;
+  background: var(--ivory);
+  border-bottom: 3px double var(--brown);
 }
 
 .masthead-inner {
