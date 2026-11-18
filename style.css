@@ -112,9 +112,6 @@ a {
 .masthead {
   background: var(--ivory);
   border-bottom: 3px double var(--brown);
-  position: sticky;
-  top: 0;
-  z-index: 20;
 }
 
 .masthead-inner {
