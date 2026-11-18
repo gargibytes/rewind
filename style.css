@@ -403,7 +403,7 @@ a {
   margin: 0 auto 1.4rem;
 }
 
-.intro-body::first-letter {
+.intro-body-first-letter {
   font-family: 'Playfair Display', Georgia, serif;
   float: left;
   font-size: 3.6rem;
@@ -446,7 +446,7 @@ a {
   font-family: 'Playfair Display', Georgia, serif;
   font-style: italic;
   font-size: 1.7rem;
-  color: white;
+  color: #722F37;
   margin-bottom: 1.2rem;
 }
 
@@ -500,7 +500,7 @@ a {
   font-size: 1.3rem;
 }
 
-.dropcap::first-letter {
+.dropcap-letter {
   font-family: 'Playfair Display', Georgia, serif;
   float: left;
   font-size: 4.5rem;
@@ -668,6 +668,10 @@ button.btn-rw {
   font-family: 'Source Sans 3', Arial, sans-serif;
   cursor: pointer;
 }
+
+
+
+
 
 /* 7. RESPONSIVE */
 @media (min-width: 768px) {
