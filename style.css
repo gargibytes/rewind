@@ -32,6 +32,7 @@ h3,
 .wordmark {
   font-family: 'Playfair Display', Georgia, serif;
   line-height: 1.15;
+  color: white
 }
 
 h2 {
@@ -128,7 +129,7 @@ a {
   font-size: 1.7rem;
   font-weight: 700;
   letter-spacing: .12em;
-  color: #33251F;
+  color: white;
   text-decoration: none;
   margin: 0;
 }
