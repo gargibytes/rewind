@@ -101,7 +101,7 @@ color: #722F37;
   font-family: 'Playfair Display', Georgia, serif;
   font-style: italic;
   font-size: 1.3rem;
-  color: white;
+  color: rgb(141, 74, 74);
 }
 
 .lead-text {
@@ -503,7 +503,7 @@ color: #722F37;
 }
 
 .hero-band .subtitle {
-  color: #722F37;
+  color:white;
   margin: 0;
 }
 
